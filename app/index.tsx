@@ -1,15 +1,20 @@
-import { Text, View } from "react-native";
+import { Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function Index() {
+
+const Index = () => {
   return (
-    <View
+    <SafeAreaView
       style={{
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
       }}
     >
+      <Text style={{ fontSize: 24, fontWeight: "bold" }}>Welcome to my playground!</Text>
       <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    </SafeAreaView>
   );
 }
+
+export default Index;
