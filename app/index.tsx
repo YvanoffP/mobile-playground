@@ -11,7 +11,7 @@ const Index = () => {
         alignItems: "center",
       }}
     >
-      <Text style={{ fontFamily: "PlaywriteNZBasic-Regular", fontSize: 24, fontWeight: "bold" }}>Welcome to my playground!</Text>
+      <Text style={{ fontSize: 24, fontWeight: "bold" }}>Welcome to my playground!</Text>
       <Text>Edit app/index.tsx to edit this screen.</Text>
     </SafeAreaView>
   );

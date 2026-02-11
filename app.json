@@ -43,14 +43,6 @@
           },
           "imageWidth": 200
         }
-      ],
-      [
-        "expo-font",
-        {
-          "fonts": [
-            "./assets/fonts/PlaywriteNZBasic-Regular.ttf"
-          ]
-        }
       ]
     ],
     "experiments": {
